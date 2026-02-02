@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*:default size desktop*/
+        .main{
+            font-size: 80px;
+            padding: 30px;
+            color: blueviolet;
+            background-color: chartreuse;
+        }
+        /*mobile device*/
+        @media(max-width:600px){
+         .main
+            {
+            padding: 15px;
+            background-color: cyan;
+            font-size: 25px;
+            color: brown;
+            }
+        }
+        /*tablet device*/
+        @media(min-width:601px) and (max-width:1024px){
+            .main{
+                background-color: yellow;
+                color: green;
+                font-size: 30px;
+            }
+        }
+            
+        
+        
+    </style>
+</head>
+<body>
+    <h2>Responsive Design</h2>
+    <div class="main">
+        Check for Responsive Design <br>
+        Check for color change !
+    </div>
+</body>
+</html>

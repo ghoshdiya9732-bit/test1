@@ -1,0 +1,87 @@
+body{
+    background-attachment: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 50%;
+
+}
+.logo{
+    color:blue;
+    font-size: 48px;
+    font-weight: bold;
+}
+.tagline{
+    font-size: 24px;
+    color:black;
+    margin-top: 10px;
+}
+.right{
+    width: 40%;
+
+
+}
+.loginbox{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+.loginbox input{
+    width: 100%;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.loginbtn{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.loginbtn:hover{
+    background-color: darkslateblue;
+}
+.forget-pass{
+    color: blue;
+    display: block;
+    text-align: center;
+    margin: 15px;
+    text-decoration: none;
+
+
+
+}
+.create-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create-btn:hover{
+    background-color: darkgreen;
+}
+.page{
+    text-align: center;
+}
+
+
+
+

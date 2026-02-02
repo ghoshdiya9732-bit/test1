@@ -1,0 +1,37 @@
+/* types of selector */
+/* Universal seledtor */
+*{
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* Element Selector */
+p{
+    color: rgb(120, 126, 87);
+    font-size: larger;
+}
+/* class selector */
+.heading{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Id selector */
+#id1{
+    color: darkgoldenrod;
+    font-family: monospace;
+    font-size: medium;
+}
+/* Group selector */
+h4,h3{
+    color: crimson;
+    text-align: center;
+}
+/* attribute selector */
+input[type="text"]{
+    border: 2px solid yellowgreen;
+    
+}
+/* pseudo selector */
+a:hover{
+    color: darkred;
+}
